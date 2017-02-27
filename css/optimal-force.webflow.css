@@ -1,0 +1,321 @@
+.reminder-bar {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-image: -webkit-linear-gradient(270deg, #0697b5, #0697b5);
+  background-image: linear-gradient(180deg, #0697b5, #0697b5);
+  color: #000;
+  text-align: center;
+}
+
+.navbar {
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: -webkit-linear-gradient(270deg, #272627, #272627);
+  background-image: linear-gradient(180deg, #272627, #272627);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.navbar.menu {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.logo {
+  margin-right: 5px;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+
+.graphic-title {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: rgba(0, 152, 255, .03);
+  background-image: url('../images/FortWorth_1920.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.graphictitleoverlay {
+  margin-top: 200px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.arx-logo-overlay {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  float: right;
+  text-align: right;
+}
+
+._3linename {
+  padding-top: 5px;
+  padding-left: 7px;
+  text-align: left;
+}
+
+.info1 {
+  display: block;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .35), rgba(0, 0, 0, .35));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .35), rgba(0, 0, 0, .35));
+}
+
+._3-keywords {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.video {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-image: -webkit-linear-gradient(270deg, #000, #000), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3));
+  background-image: linear-gradient(180deg, #000, #000), linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3));
+}
+
+.footer {
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-image: -webkit-linear-gradient(270deg, #272627, #272627);
+  background-image: linear-gradient(180deg, #272627, #272627);
+}
+
+.nab-menu {
+  color: #0697b5;
+  text-align: right;
+}
+
+.address {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: silver;
+  text-align: right;
+}
+
+.social-media {
+  position: static;
+  top: 0px;
+  right: -5px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  float: none;
+  clear: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: right;
+}
+
+._2linename {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+.footerlinks {
+  margin-top: 0px;
+  padding-top: 0px;
+  color: silver;
+}
+
+.footerlinklist {
+  margin-top: 30px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.questiontitle {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #a71c20;
+  text-align: center;
+}
+
+._3columndescription {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.infosection {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tableimage {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.bottomsignup {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: -webkit-linear-gradient(270deg, #0697b5, #0697b5);
+  background-image: linear-gradient(180deg, #0697b5, #0697b5);
+}
+
+.emailform {
+  margin-top: 20px;
+}
+
+.submitbutton {
+  background-image: -webkit-linear-gradient(270deg, #b80c0c, #b80c0c);
+  background-image: linear-gradient(180deg, #b80c0c, #b80c0c);
+  text-align: center;
+}
+
+.formheader {
+  margin-top: 40px;
+  color: #fff;
+}
+
+.copyright {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  color: #a71c20;
+  text-align: center;
+}
+
+.redsectionhead {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  background-color: #a71c20;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 34px;
+}
+
+.comingsoondetails {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .35), rgba(0, 0, 0, .35));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .35), rgba(0, 0, 0, .35));
+}
+
+.details {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.blueheading3 {
+  color: #000506;
+}
+
+@media (max-width: 991px) {
+  .graphictitleoverlay {
+    margin-top: 175px;
+  }
+  .info1 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .video {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .redsectionhead {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: -15px;
+    line-height: 38px;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo {
+    padding-left: 5px;
+  }
+  .redsectionhead {
+    padding-left: 5px;
+  }
+  .comingsoondetails {
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 479px) {
+  .navbar {
+    position: static;
+    top: 0px;
+    right: 0px;
+    float: none;
+  }
+  .logo {
+    position: static;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+    clear: none;
+    text-align: center;
+  }
+  .graphictitleoverlay {
+    margin-top: 75px;
+    text-align: center;
+  }
+  ._3linename {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+  }
+  .video {
+    padding-top: 1px;
+  }
+  .redsectionhead {
+    padding-left: 5px;
+  }
+  .comingsoondetails {
+    padding-left: 5px;
+  }
+}
