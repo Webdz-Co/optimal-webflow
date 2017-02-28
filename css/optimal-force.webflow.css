@@ -22,10 +22,10 @@
   text-transform: uppercase;
 }
 
-.navbar a:link { color: #fff; }
-.navbar a:visited { color: #fff; }
-.navbar a:hover { color: #fff; }
-.navbar a:active { color: #fff; }
+a:link { color: #fff; }
+a:visited { color: #fff; }
+a:hover { color: #fff; }
+a:active { color: #fff; }
 
 .navbar.menu {
   font-family: Ubuntu, Helvetica, sans-serif;
