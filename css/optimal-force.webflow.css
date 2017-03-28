@@ -5,7 +5,7 @@
   padding-bottom: 3px;
   background-image: -webkit-linear-gradient(270deg, #0697b5, #0697b5);
   background-image: linear-gradient(180deg, #0697b5, #0697b5);
-  color: #ddd;
+  color: #bebebe;
   text-align: center;
 }
 
@@ -22,15 +22,22 @@
   text-transform: uppercase;
 }
 
-a:link { color: #fff; }
-a:visited { color: #fff; }
-a:hover { color: #fff; }
-a:active { color: #fff; }
+.navbar:hover {
+  color: #0095b3;
+}
+
+.navbar.w--current {
+  color: #a71c20;
+}
 
 .navbar.menu {
   font-family: Ubuntu, Helvetica, sans-serif;
   text-align: left;
   text-transform: uppercase;
+}
+
+.navbar.menu.w--current {
+  color: #a71c20;
 }
 
 .logo {
@@ -151,6 +158,10 @@ a:active { color: #fff; }
   color: silver;
 }
 
+.footerlinks:hover {
+  color: #a71c20;
+}
+
 .footerlinklist {
   margin-top: 30px;
   font-family: Ubuntu, Helvetica, sans-serif;
@@ -167,6 +178,7 @@ a:active { color: #fff; }
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 16px;
+  font-style: normal;
   text-align: center;
 }
 
@@ -223,7 +235,7 @@ a:active { color: #fff; }
   margin-top: 5px;
   margin-bottom: 5px;
   padding-top: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   background-color: #a71c20;
   font-family: Ubuntu, Helvetica, sans-serif;
   color: #fff;
@@ -244,6 +256,325 @@ a:active { color: #fff; }
 
 .blueheading3 {
   color: #000506;
+}
+
+.text-block {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.text-block.columndescription {
+  padding-left: 10px;
+}
+
+.list-item {
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.list-item-2 {
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.list-item-3 {
+  padding-bottom: 5px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.column {
+  padding-left: 40px;
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent);
+  background-image: linear-gradient(180deg, transparent, transparent);
+}
+
+.unordered-list {
+  padding-top: 10px;
+}
+
+.list-item-4 {
+  list-style-type: none;
+}
+
+.list-item-5 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-item-6 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-item-7 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-item-8 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.important-text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.list-item-9 {
+  margin-top: 0px;
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-item-10 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-item-11 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-item-12 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-item-13 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-item-14 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-item-15 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-item-16 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-item-17 {
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.important-text-2 {
+  font-weight: 400;
+}
+
+.list-item-18 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.section {
+  padding-top: 0px;
+}
+
+.section-2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slide {
+  background-image: url('../images/example-bg.png');
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
+.slide-2 {
+  background-image: url('../images/buildingfront.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide2 {
+  background-image: url('../images/stopsign.jpg'), url('../images/example-bg.png');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+  background-repeat: repeat, repeat;
+}
+
+.slide2.b {
+  background-image: url('../images/morton_foch_signs.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide2.e {
+  background-image: url('../images/turnsouth.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide2.e._1 {
+  background-image: url('../images/chimysign.jpg'), url('../images/turnsouth.jpg'), -webkit-linear-gradient(270deg, null, null);
+  background-image: url('../images/chimysign.jpg'), url('../images/turnsouth.jpg'), linear-gradient(180deg, null, null);
+  background-position: 50% 50%, 50% 50%, 0px 0px;
+  background-size: auto, cover, auto;
+  background-repeat: repeat, repeat, repeat;
+}
+
+.slide5 {
+  background-image: url('../images/chimysign.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.text-block-2 {
+  text-align: center;
+}
+
+.announcement_link {
+  color: #fff;
+}
+
+.announcement_link:hover {
+  color: #060000;
+}
+
+.linkfooter {
+  color: silver;
+  text-decoration: none;
+}
+
+.linkfooter:hover {
+  color: #a71c20;
+}
+
+.link {
+  color: silver;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #a71c20;
+}
+
+.link-2 {
+  color: silver;
+  text-decoration: none;
+}
+
+.link-2:hover {
+  color: #a71c20;
+}
+
+.link-3 {
+  color: silver;
+  text-decoration: none;
+}
+
+.link-3:hover {
+  color: #a71c20;
+}
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.text-block-3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.section-3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.tablink {
+  width: 20%;
+  margin-right: 2%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.tablink.w--current {
+  background-color: #0095b3;
+  color: #fff;
+  font-size: 18px;
+}
+
+.tab-pane {
+  padding: 30px 50px;
+  background-image: -webkit-linear-gradient(270deg, #0095bb, #0095bb);
+  background-image: linear-gradient(180deg, #0095bb, #0095bb);
+  color: #fff;
+}
+
+.tab-pane-2 {
+  padding: 30px 50px;
+  background-image: -webkit-linear-gradient(270deg, #0095b3, #0095b3);
+  background-image: linear-gradient(180deg, #0095b3, #0095b3);
+  color: #fff;
+}
+
+.tab-pane-3 {
+  padding: 30px 50px;
+  background-image: -webkit-linear-gradient(270deg, #0095b3, #0095b3);
+  background-image: linear-gradient(180deg, #0095b3, #0095b3);
+  font-size: 16px;
+}
+
+.alist {
+  padding-top: 0px;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: #fff;
+  line-height: 20px;
+}
+
+.spacedlist {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.slide-3 {
+  background-image: url('../images/ARX-Fit-29.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.section-5 {
+  margin-bottom: 5px;
 }
 
 @media (max-width: 991px) {
@@ -269,6 +600,9 @@ a:active { color: #fff; }
     -moz-column-count: 1;
     column-count: 1;
   }
+  .tablink {
+    width: 25%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -280,6 +614,9 @@ a:active { color: #fff; }
   }
   .comingsoondetails {
     padding-left: 5px;
+  }
+  .tablink {
+    width: 30%;
   }
 }
 
