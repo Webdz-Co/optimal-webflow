@@ -113,12 +113,12 @@
         </div>
         <div class="w-col w-col-6">
           <div class="emailform w-form">
-            <form data-name="Email Form" id="email-form" name="email-form">
-              <label for="name">Name:</label>
-              <input class="w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="Enter your name" type="text">
-              <label for="email">Email Address:</label>
-              <input class="w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Enter your email address" required="required" type="email">
-              <input class="submitbutton w-button" data-wait="Please wait..." type="submit" value="Submit">
+            <form action="https://www.getdrip.com/forms/96136406/submissions" method="post" data-drip-embedded-form="96136406" data-name="Email Form" id="email-form" name="email-form">
+              <label for="drip-name">Name:</label>
+              <input class="w-input" data-name="Name" id="drip-name" maxlength="256" name="fields[name]" placeholder="Enter your name" type="text">
+              <label for="drip-email">Email Address:</label>
+              <input class="w-input" data-name="Email" id="drip-email" maxlength="256" name="fields[email]" placeholder="Enter your email address" required="required" type="email">
+              <input class="submitbutton w-button" data-wait="Please wait..." type="submit" value="Submit" name="submit"data-drip-attribute="sign-up-button" />
             </form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>
