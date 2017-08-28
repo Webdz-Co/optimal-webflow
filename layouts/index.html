@@ -6,3 +6,7 @@
   {{ partial "video-teaser.html" . }}
   {{ partial "arxlogo.html" . }}
 {{ end }}
+{{ block "footer" . }}
+  {{ partial "footer/signup-bar.html" . }}
+  {{ partial "footer/site-footer.html" . }}
+{{ end }}
