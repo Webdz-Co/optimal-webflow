@@ -1,3 +1,6 @@
+{{ define "title" }}
+  {{ .Site.Title }} - {{ .Site.Params.location }}
+{{ end }}
 {{ define "main" }}
   {{ partial "infosection.html" . }}
   {{ partial "video-teaser.html" . }}

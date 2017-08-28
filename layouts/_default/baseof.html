@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>{{ block "title" . }}
-    {{ .Site.Title }} - {{ .Site.Params.location }}
+    {{ .Title }} - {{ .Site.Title }}
   {{ end }}</title>
   <meta content="ARX Fort Worth Resistance Training Center - Bulletproof and ARX Equipment" name="description">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -27,6 +27,7 @@
     {{ partial "header/site-nav.html" . }}
   {{ end }}
   {{ block "main" . }}
+    {{ .Content }}
   {{ end }}
   {{ block "footer" . }}
     {{ partial "footer/signup-bar.html" . }}
