@@ -1,0 +1,6 @@
+[context.production.environment]
+  HUGO_VERSION = "0.26"
+
+[context.branch-deploy]
+  HUGO_VERSION = "0.26"
+  norobots = "<meta name=\"robots\" content=\"noindex, nofollow\">"

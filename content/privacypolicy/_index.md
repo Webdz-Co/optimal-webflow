@@ -1,0 +1,12 @@
++++
+title = "Privacy Policy"
++++
+{{ define "title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+  {{ partial "about.html" . }}
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer/site-footer.html" . }}
+{{ end }}

@@ -1,0 +1,9 @@
++++
+title = "About"
++++
+{{ define "title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+  {{ partial "about.html" . }}
+{{ end }}
