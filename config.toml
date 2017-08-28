@@ -1,4 +1,6 @@
 baseURL = "/"
-languageCode = "en-us"
+# languageCode = "en-us"
 title = "Optimal Force Fitness"
-location = "Fort Worth"
+
+[params]
+  location = "Fort Worth"

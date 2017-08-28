@@ -1,9 +1,3 @@
 +++
 title = "Location"
 +++
-{{ define "title" }}
-  {{ .Title }} - {{ .Site.Title }}
-{{ end }}
-{{ define "main" }}
-  {{ partial "location.html" . }}
-{{ end }}
