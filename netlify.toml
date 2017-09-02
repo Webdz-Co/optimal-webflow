@@ -3,4 +3,4 @@
 
 [context.branch-deploy]
   HUGO_VERSION = "0.26"
-  norobots = "<meta name=\"robots\" content=\"noindex, nofollow\">"
+  norobots = "true"
