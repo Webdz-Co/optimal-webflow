@@ -1,7 +1,10 @@
 /coming-soon        /
 /coming-soon.html   /
 /demo               /demolimited      302
-/sessions.html      /sessions/
+/sessions.html      /schedule/
+/sessions           /schedule/
+/sessions/          /schedule/
 /location.html      /location/
 /about.html         /about/
+/about              /about/
 /careers.html       /careers/
