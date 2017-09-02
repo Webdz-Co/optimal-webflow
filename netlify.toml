@@ -1,6 +1,8 @@
 [context.production.environment]
   HUGO_VERSION = "0.26"
 
-[context.branch-deploy]
+[context.branch-deploy.environment]
   HUGO_VERSION = "0.26"
+
+[context.branch-deploy]  
   norobots = "true"
