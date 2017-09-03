@@ -3,6 +3,4 @@
 
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.26"
-
-[context.branch-deploy]  
-  norobots = "true"
+  HUGO_NOROBOTS = "true"

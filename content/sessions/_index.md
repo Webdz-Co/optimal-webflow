@@ -1,5 +1,5 @@
 +++
-title = "Sessions"
+title = "Schedule"
 +++
 <div class="redsectionhead">
   <div class="w-container">
