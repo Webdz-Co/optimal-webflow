@@ -5,6 +5,6 @@
 /sessions           /schedule/
 /sessions/          /schedule/
 /location.html      /location/
-/about.html         /about/
-/about              /about/
+# /about.html         /about/
+# /about              /about/
 /careers.html       /careers/
