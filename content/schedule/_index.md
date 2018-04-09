@@ -15,5 +15,3 @@ title = "Schedule"
     </div>
   </div>
 </div>
-<script src="https://gateway.gear.mycelium.com/gear-widget-host.js"></script>
-<iframe id="gear-widget" scrolling="no" src="https://gateway.gear.mycelium.com/widgets/abc01d03f6451c5f5c8678fed3c4110d6168672cde871ced6486c9ca82f6dfbd" style="border: none; display: inline-block; height: 130px; min-width: 250px; max-width: 350px; float: right;"></iframe>
