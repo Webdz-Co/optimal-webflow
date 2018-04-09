@@ -1,6 +1,7 @@
 +++
 title = "About"
 aliases = [
+  "/about",
   "/about.html"
 ]
 +++
