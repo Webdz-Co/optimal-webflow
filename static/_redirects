@@ -2,7 +2,7 @@
 /coming-soon.html   /
 /demo               /demolimited      302
 /sessions.html      /schedule/
-/sessions           /schedule/
+# /sessions           /schedule/
 /sessions/          /schedule/
 /location.html      /location/
 # /about.html         /about/
