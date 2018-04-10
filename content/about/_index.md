@@ -1,8 +1,5 @@
 +++
 title = "About"
-aliases = [
-  "/about.html"
-]
 +++
 <div class="redsectionhead">
   <div class="w-container">
